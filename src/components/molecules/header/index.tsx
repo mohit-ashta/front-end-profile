@@ -2,26 +2,15 @@ import ContactInfo from "@/components/atoms/contact-info";
 import { useRouter } from "next/router";
 import { MdPhone } from "react-icons/md";
 import { FaEnvelope } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 export const TopHeader = () => {
   const router = useRouter();
   return (
-    <div className="bg-zinc-900 hidden lg:block">
-      <div className="container">
-        <div className="flex justify-between items-center text-[#cc5353] py-4">
-          Mohit
-          <div className="flex items-center justify-between xl:w-1/2 gap-3 xl:gap-0">
-            <p>Have any question?</p>
-            <ContactInfo
-              icon={<MdPhone color="" size={25} />}
-              linkto="tel:+919417385308"
-              title="+91-94173-85308"
-            />
-            <ContactInfo
-              icon={<FaEnvelope color="#" size={25} />}
-              title="mohit.ashta@icloud.com"
-              linkto="mailto:mohit.ashta@icloud.com"
-            />
-          </div>
+    <div className="bg-[#141414] py-4 ">
+      <div className="container ">
+        <div className="flex justify-between text-white">
+          <span className="font-bold text-[22px]">Er. Mohit Ashta</span>
+         <div className="flex items-center gap-2 text-lg"> <TfiEmail size={20}/>   <span> mohit.ashta@icloud.com</span></div>
         </div>
       </div>
     </div>

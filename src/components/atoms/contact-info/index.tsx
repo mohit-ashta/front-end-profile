@@ -1,16 +1,18 @@
+import Link from "next/link";
 import React, { ReactNode } from "react";
+import { Url } from "url";
 
 interface ContactInfoProps {
   title: string;
   icon: ReactNode; // ReactNode can be any valid React child
-  linkto: string;
+  linkto?: Url;
 }
 
 const ContactInfo: React.FC<ContactInfoProps> = ({ title, icon, linkto }) => {
   return (
     <div className="flex items-center gap-2">
       {icon}
-      <a href={linkto}>{title}</a>
+      {/* <Link href={linkto}>{title}</Link> */}
     </div>
   );
 };
