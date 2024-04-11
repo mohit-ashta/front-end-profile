@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet"/>
-
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
       </Head>
       <body>

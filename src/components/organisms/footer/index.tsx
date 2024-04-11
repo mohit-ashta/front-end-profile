@@ -36,7 +36,7 @@ export const Footer = () => {
           <div>
             {" "}
             <h3 className="text-slate-300 font-bold text-4xl lg:text-5xl xl:text-[64px] tracking-[-1.5px]">
-              Lets toegther work
+              Lets together work
             </h3>
           </div>
         </div>

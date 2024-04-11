@@ -4,7 +4,7 @@
 
 :root {
   --SyneFont: "Syne", "sans-serif";
-  --Commissioner: "Commissioner", serif;
+  --Playfair:"Playfair Display", serif;
 }
 * {
   box-sizing: border-box;

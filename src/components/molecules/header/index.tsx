@@ -8,9 +8,9 @@ export const TopHeader = () => {
   return (
     <div className="bg-[#141414] py-4 ">
       <div className="container ">
-        <div className="flex justify-between text-white">
-          <span className="font-bold text-[22px]">Er. Mohit Ashta</span>
-         <div className="flex items-center gap-2 text-lg"> <TfiEmail size={20}/>   <span> mohit.ashta@icloud.com</span></div>
+        <div className="flex justify-between text-white px-4 lg:px-0">
+          <span className="font-bold lg:text-[22px] text-[15px]">Er. Mohit Ashta</span>
+         <div className="flex items-center gap-2 lg:text-[22px] text-[15px]"> <TfiEmail size={20}/>   <span> mohit.ashta@icloud.com</span></div>
         </div>
       </div>
     </div>
